@@ -1,4 +1,4 @@
-# pdf_rater
+# resume_rater
 
 installions required:
 
