@@ -6,9 +6,9 @@ def read_text_file(path):
     with open(path, "r", encoding="utf-8") as f:
         return f.read()
 
-resume_path = r"C:\Users\ADMIN\Desktop\p\resume1.pdf"
-jd_path = r"C:\Users\ADMIN\Desktop\p\jd.txt"
-prompt_path = r"C:\Users\ADMIN\Desktop\p\prompt.txt"
+resume_path = r"C:\Users\ADMIN\Desktop\codes\resume1.pdf"
+jd_path = r"C:\Users\ADMIN\Desktop\codes\jd.txt"
+prompt_path = r"C:\Users\ADMIN\Desktop\codes\prompt.txt"
 
 loader = PyMuPDFLoader(resume_path)
 documents = loader.load()
